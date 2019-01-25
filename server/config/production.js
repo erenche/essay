@@ -1,4 +1,4 @@
-module.exports = {
+module.exports =  {
   user: {
     role: 'superAdmin',
     username: 'q',
@@ -13,14 +13,14 @@ module.exports = {
   },
   mongodb: {
     host: '127.0.0.1',
-    database: 'essay-dev',
+    database: 'essay',
     port: 27017,
     username: '',
     password: '',
   },
   githubConfig: {
-    githubClient: '9588f02db3f89d176f36',
-    githubSecret: '10f4f1daa81764664fafb2e50be2c6985ef139f8',
+    githubClient: '',
+    githubSecret: '',
     scope: 'user',
   },
   emailConfig: {
@@ -28,7 +28,7 @@ module.exports = {
     pass: '',
   },
   app: {
-    domain: 'http://127.0.0.1:3000',
+    domain: 'https://www.86886.wang',
     baseApi: '/v1',
   },
 }
